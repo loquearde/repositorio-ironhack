@@ -54,13 +54,12 @@ function sum(arraySum) {
 // Level 1: Array of numbers
 const numbersAvg = [2, 6, 9, 10, 7, 4, 1, 9];
 
-function averageNumbers(sum, arrLength) {
-  let arrLength = numbersAvg.length;
+function averageNumbers(sum, numbersAvg.length) {
   let sum = 0;
   for (let i = 0; i < numbersAvg.length; i++) {
     sum += numbersAvg[i]
   }
-  return (sum / arrLength);
+  return (sum / numbersAvg.length);
 }
 
 

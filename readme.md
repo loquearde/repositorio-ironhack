@@ -99,3 +99,9 @@ Hoy hemos empezado con JavaScript. Primero repasando todos los tipos de datos (s
 ## Martes 15 de noviembre
 
 Nos metemos de lleno en los arrays y objetos y en los diferentes métodos que podemos emplear para su manipulación.
+
+## Miércoles 16 de noviembre
+
+Ayer la clase se centró fundamentalmente en la resolución de problemas de arrays y funciones a lo largo de la mañana. Por la tarde,entramos de lleno en la manipulación del DOM y en los diferentes métodos que podemos utilizar desde JavaScript para alterar las condiciones del HTML.
+
+## Jueves 17 de noviembre
