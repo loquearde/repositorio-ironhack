@@ -105,3 +105,7 @@ Nos metemos de lleno en los arrays y objetos y en los diferentes métodos que po
 Ayer la clase se centró fundamentalmente en la resolución de problemas de arrays y funciones a lo largo de la mañana. Por la tarde,entramos de lleno en la manipulación del DOM y en los diferentes métodos que podemos utilizar desde JavaScript para alterar las condiciones del HTML.
 
 ## Jueves 17 de noviembre
+
+Toda la mañana de ayer nos centramos en resolver el lab del e-commerce de Ironhack, que incluía fundamentalmente manipulación del DOM. Por la tarde, seguimos practicando esto apuntando a diferentes botones dentro de un HTML para cambiar sus propiedades y hacerlos reactivos.
+
+## Viernes 18 de noviembre
