@@ -28,27 +28,32 @@ console.table(getAllDirectors(movies));
 
 // Iteration 2: Steven Spielberg. The best? - How many drama movies did STEVEN SPIELBERG direct?
 function howManyMovies(moviesArray) {
-  const allSpielbergMovies = moviesArray.filter((movieItem) => movieItem.director === "Steven Spielberg");
-  const drama = allSpielbergMovies.filter((dramaItem) => dramaItem.genre.includes("Drama"));
+  const allSpielbergMovies = moviesArray.filter(
+    (movieItem) => movieItem.director === "Steven Spielberg"
+  );
+  const drama = allSpielbergMovies.filter((dramaItem) =>
+    dramaItem.genre.includes("Drama")
+  );
   return drama.length;
 }
-
 
 // Iteration 3: All scores average - Get the average of all scores with 2 decimals
 function scoresAverage(moviesArray) {
   let totalScore = 0;
-  moviesArray.forEach(element => {
-    if (element.score) totalScore += element.score
+  moviesArray.forEach((element) => {
+    if (element.score) totalScore += element.score;
   });
   const average = parseFloat((totalScore / moviesArray.length).toFixed(2));
   if (moviesArray.length === 0) return 0;
   return average;
 }
-console.log(scoresAverage(movies))
+console.log(scoresAverage(movies));
 
 // Iteration 4: Drama movies - Get the average of Drama Movies
 function dramaMoviesScore(moviesArray) {
-  const dramaMovies = moviesArray.filter((dramaItem) => dramaItem.genre.includes("Drama"));
+  const dramaMovies = moviesArray.filter((dramaItem) =>
+    dramaItem.genre.includes("Drama")
+  );
   return scoresAverage(dramaMovies);
 }
 
@@ -66,9 +71,12 @@ function orderByYear(moviesArray) {
 
 // Iteration 6: Alphabetic Order - Order by title and print the first 20 titles
 function orderAlphabetically(moviesArray) {
-  const moviesSorted = moviesArray.title.sort((a, b) => a - b);
-  const only20Movies = moviesSorted.slice(0, 19);
-  console.log(only20Movies);
+  let movieTitlesAscending = moviesArray
+    .sort((a, b) => (a.title > b.title ? 1 : -1))
+    .map((movie) => movie.title)
+    .slice(0, 21);
+
+  return movieTitlesAscending;
 }
 
 // BONUS - Iteration 7: Time Format - Turn duration of the movies from hours to minutes

@@ -109,6 +109,19 @@ obtainInstruction("steak", 0)
 
 // Iteration 3 using async/await
 // ...
-
+async function makeBroccoli(step) {
+  try {
+    const paso = await obtainInstruction("broccoli", step);
+    console.log(paso);
+    document.querySelector("#broccoli").innerHTML += `<li>${paso}</li>`;
+    makeBroccoli(step + 1);
+  } catch (error) {
+    document.querySelector(
+      "#broccoli"
+    ).innerHTML += `<li>${"Broccoli is ready"}</li>`;
+  }
+  document.querySelector("#broccoliImg").removeAttribute("hidden");
+}
+makeBroccoli(0);
 // Bonus 2 - Promise all
 // ...

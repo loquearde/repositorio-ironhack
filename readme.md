@@ -109,3 +109,7 @@ Ayer la clase se centró fundamentalmente en la resolución de problemas de arra
 Toda la mañana de ayer nos centramos en resolver el lab del e-commerce de Ironhack, que incluía fundamentalmente manipulación del DOM. Por la tarde, seguimos practicando esto apuntando a diferentes botones dentro de un HTML para cambiar sus propiedades y hacerlos reactivos.
 
 ## Viernes 18 de noviembre
+
+Hoy nos metimos de lleno en las promesas y las funciones async. Estas funciones sirven para mostrar la información en pantalla de manera asíncrona, en lugar de ejecutar todo el código a la vez y mostrar todo en lo que tarde en cargar la web.
+
+## Lunes 21 de noviembre
