@@ -112,4 +112,6 @@ Toda la mañana de ayer nos centramos en resolver el lab del e-commerce de Ironh
 
 Hoy nos metimos de lleno en las promesas y las funciones async. Estas funciones sirven para mostrar la información en pantalla de manera asíncrona, en lugar de ejecutar todo el código a la vez y mostrar todo en lo que tarde en cargar la web.
 
-## Lunes 21 de noviembre
+## Lunes 29 de noviembre
+
+Hoy hemos tenido la primera toma de contacto con VUE y hemos aprendido a configurar correctamente el framework y a poder ver en pantalla el trabajo que vamos haciendo gracias al local host. También hemos trabajado ya dentro de un documento vue, visto sus diferentes secciones y cómo insertar el JS dentro del HTML.
