@@ -22,7 +22,6 @@ import exampleLab from "./new project/lab.vue";
   <main>
     <TheWelcome />
     <exampleLab />
-    {{ exampleLab }}
   </main>
 </template>
 
