@@ -142,3 +142,17 @@ Hoy continuaré trabajando algunos errores que tengo en el estilo y en las media
 Hoy hemos tenido la primera toma de contacto con VUE y hemos aprendido a configurar correctamente el framework y a poder ver en pantalla el trabajo que vamos haciendo gracias al local host. También hemos trabajado ya dentro de un documento vue, visto sus diferentes secciones y cómo insertar el JS dentro del HTML.
 
 ## Martes 29 de noviembre
+
+Hoy hemos aprendido a utilizar los condicionales en VUE: v-show, v-if, v-if-else y v-else. Funcionan de una manera muy similar a cómo lo hacían los condicionales en JS, aunque simplificados y con una aplicación práctica más clara.
+
+## Miércoles 30 de noviembre
+
+Hoy hemos resuelto todos juntos el lab del día anterior (lo cual me ha sido de bastante ayuda para entender mejor las funciones de VUE que ya conocíamos) y nos hemos adentrado en el uso de slots y de props.
+
+## Jueves 1 de diciembre
+
+Hemos comenzado el día resolviendo conjuntamente el lab de los tweets. Luego hemos estudiado y visto la aplicación práctica del v-model (two-way data binding).
+
+## Viernes 2 de diciembre
+
+Hoy hemos comenzado el día trabajando en el ejercicio del form para utilizar el v-model. Luego hemos comenzado a ver los watchers,
